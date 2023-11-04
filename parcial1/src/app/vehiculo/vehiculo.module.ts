@@ -6,6 +6,7 @@ import { VehiculoComponent } from './vehiculo.component';
   imports: [
     CommonModule
   ],
-  declarations: [VehiculoComponent]
+  declarations: [VehiculoComponent],
+  exports:[VehiculoComponent]
 })
 export class VehiculoModule { }
