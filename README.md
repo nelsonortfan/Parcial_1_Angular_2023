@@ -16,6 +16,7 @@ Parcial 1 Asignatura Angular Universidad de los Andes Nelson Ortiz
 <b>
 npm install @faker-js/faker --save-dev
 </b>
+
 2.	Se abrirá una nueva ventana con la ejecución de las pruebas con el siguiente resultado:
 
 ![Alt text](Resultado_prueba.jpg)
