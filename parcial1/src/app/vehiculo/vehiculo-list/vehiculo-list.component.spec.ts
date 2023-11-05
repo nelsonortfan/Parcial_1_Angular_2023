@@ -48,4 +48,12 @@ describe('VehiculoListComponent', () => {
     expect(debug.query(By.css("tbody")).childNodes.length).toBeGreaterThan(0);
   });
 
+  it('Componente tiene una cabecera de tabla',()=>{
+    expect(debug.queryAll(By.css("thead"))).toHaveSize(1);
+  });
+
+  it('Componente tiene 3 filas con el listado de vehiculos',()=>{
+    expect(debug.queryAll(By.css('dd'))).toHaveSize(12);   // cada fila tiene 4 dd por ende 3 filas serian 12
+  });
+
 });
