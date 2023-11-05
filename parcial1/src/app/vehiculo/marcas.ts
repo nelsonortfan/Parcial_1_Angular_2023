@@ -12,8 +12,4 @@ export class Marcas {
     this.cantidad = this.cantidad + 1;
   }
 
-  public getMarca(){
-    return this.marca;
-  }
-
 }
