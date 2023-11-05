@@ -13,14 +13,16 @@ export class VehiculoListComponent implements OnInit {
 
   vehiculos: Array<Vehiculo> = []
 
-  getvehiculos(){
+  getVehiculos(){
     this.vehiculoService.getVehiculos().subscribe(vehiculos =>{
       this.vehiculos = vehiculos;
     });
   }
 
+
+
   ngOnInit() {
-    this.getvehiculos();
+    this.getVehiculos();
   }
 
 }
