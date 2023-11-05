@@ -1,12 +1,12 @@
 <div>
-  <img src="./assets/images/Frame1.png"  class="conborde" width="1760"  height="400">
+  <img src="./assets/images/Frame1.png"  class="conborde" >
 </div>
 <div class="container-fluid">
   <div class="col-6">
     <table class="table">
       <thead>
         <tr>
-          <th class="h4">#</th>
+          <th>#</th>
           <th>Marca</th>
           <th>Linea</th>
           <th>Modelo</th>
@@ -14,7 +14,7 @@
       </thead>
       <tbody>
         <tr *ngFor="let v of vehiculos">
-          <td>
+          <td class="bold">
             <dd>{{ v.id }}</dd>
           </td>
           <td>
@@ -31,3 +31,7 @@
     </table>
   </div>
 </div>
+
+<footer class="textcenter">
+  Contact us: +57 3102105253 - info@tusegundazo.com - @tusegundazo
+</footer>

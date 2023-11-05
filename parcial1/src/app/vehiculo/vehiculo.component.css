@@ -1,3 +1,21 @@
 .conborde{
   border: 1px solid #edecec;
+  width: 100%;
+  height: auto;
   }
+
+  .textcenter{
+    text-align:center;
+  }
+
+  .bold{
+    color:black;
+    font-weight: bold;
+  }
+
+  th
+  {
+    background-color:#323a40;
+    color:white;
+  }
+
